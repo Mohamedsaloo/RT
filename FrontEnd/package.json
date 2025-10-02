@@ -1,0 +1,79 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.1.0",
+    "axios": "^1.11.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "class-variance-authority": "^0.7.1",
+    "classnames": "^2.5.1",
+    "crypto-browserify": "^3.12.1",
+    "framer-motion": "^12.23.12",
+    "https-browserify": "^1.0.0",
+    "lucide-react": "^0.536.0",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwind-variants": "^2.1.0",
+    "typed.js": "^2.1.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "include": [
+      "/"
+    ],
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "skipThirdPartyRequests": true,
+    "source": "build",
+    "destination": "build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.4.17",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
